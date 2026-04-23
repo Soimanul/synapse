@@ -1432,6 +1432,21 @@ const ProfilePage = ({ username, onLogout }) => {
                 <p className="text-sm text-gray-900 dark:text-gray-100">Username: <span className="font-semibold">{username}</span></p>
                 <button onClick={onLogout} className="mt-4 bg-red-500 text-white text-sm px-4 py-2 rounded-lg hover:bg-red-600 transition-colors shadow-md hover:shadow-lg">Logout</button>
       </div>
+      <div className="mt-6 bg-gray-100 dark:bg-gray-800 p-6 rounded-lg border border-gray-200 dark:border-gray-700 shadow-sm">
+        <h2 className="text-lg font-semibold mb-4 text-gray-900 dark:text-gray-100">About</h2>
+        <p className="text-sm text-gray-700 dark:text-gray-300 mb-3">
+          Analytical and detail-oriented Computer Science and Artificial Intelligence student at IE University in Madrid, with a strong focus on software engineering, data analysis, and machine learning.
+        </p>
+        <p className="text-sm text-gray-700 dark:text-gray-300 mb-3">
+          My work centers on building reliable, scalable systems and extracting meaningful insights from data. I have experience working with real-world datasets, developing Python-based solutions, and applying structured problem-solving to technical challenges.
+        </p>
+        <p className="text-sm text-gray-700 dark:text-gray-300 mb-3">
+          I am particularly interested in designing efficient backend systems, implementing data-driven applications, and exploring machine learning models that translate theory into practical impact.
+        </p>
+        <p className="text-sm text-gray-700 dark:text-gray-300">
+          Currently seeking internship opportunities in Software Engineering, Data Analysis, or Machine Learning, where I can contribute to production-level systems and continue developing as an engineer.
+        </p>
+      </div>
     </div>
   );
 };
