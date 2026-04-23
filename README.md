@@ -78,14 +78,14 @@ cp .env.template .env
 
 **📋 For detailed deployment instructions, see [DEPLOYMENT.md](DEPLOYMENT.md)**
 
-### Access Points
+### Access Points (for local dev)
 - **Frontend**: http://localhost (production) or http://localhost:3000 (dev)
 - **Admin Panel**: http://localhost/admin/
 - **API Documentation**: http://localhost/api/
 
 ## 📚 Usage
 
-### Getting Started
+### Getting Started Locally
 1. **Sign Up**: Create your account at http://localhost
 2. **Upload Documents**: Drag and drop PDF, DOCX, or TXT files
 3. **Create Notes**: Use the rich text editor to write notes
