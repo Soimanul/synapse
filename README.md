@@ -165,7 +165,7 @@ The application provides a RESTful API for all functionality:
 
 For detailed deployment instructions including development and production setups, see **[DEPLOYMENT.md](DEPLOYMENT.md)**.
 
-### Quick Production Deployment
+### Quick Production Deployment guide
 ```bash
 cp .env.template .env    # Configure environment
 ./deploy.sh             # Linux/Mac
